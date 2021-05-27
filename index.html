@@ -1,0 +1,57 @@
+<html>
+<head>
+<link rel="icon" href="icon.png">
+<title>Applied Chemistry</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+  width:100%;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color:black;
+ } 
+
+
+.wrapper {
+  perspective: 100px;
+}
+
+#tiltable {
+  height:400px;
+  transition: transform 0.5s;
+  backface-visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+<script src="js.js"></script>
+</head>
+<body>
+
+<div class="wrapper">
+      <img id="tiltable" src="copil.png" />
+  </div>
+</body>
+</html>
